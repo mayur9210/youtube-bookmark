@@ -1,0 +1,99 @@
+[debug] [2018-10-09T17:27:11.342Z] ----------------------------------------------------------------------
+[debug] [2018-10-09T17:27:11.344Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-10-09T17:27:11.344Z] CLI Version:   5.0.1
+[debug] [2018-10-09T17:27:11.344Z] Platform:      darwin
+[debug] [2018-10-09T17:27:11.344Z] Node Version:  v10.1.0
+[debug] [2018-10-09T17:27:11.344Z] Time:          Tue Oct 09 2018 13:27:11 GMT-0400 (EDT)
+[debug] [2018-10-09T17:27:11.345Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-09T17:27:11.353Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-09T17:27:11.354Z] > authorizing via signed-in user
+[debug] [2018-10-09T17:27:11.354Z] [iam] checking project pss-speed for permissions ["firebase.projects.get"]
+[debug] [2018-10-09T17:27:11.355Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pss-speed:testIamPermissions  
+
+[debug] [2018-10-09T17:27:11.522Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-09T17:27:11.524Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pss-speed  
+ 
+[debug] [2018-10-09T17:27:11.654Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/mayur_vekariya/zz/vue-hero'...
+[info] 
+[debug] [2018-10-09T17:27:12.453Z] Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/logs'
+    at Object.fs.mkdirSync (fs.js:854:3)
+    at Object.assertLogsPath (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/emulator/logs.js:65:10)
+    at new Controller (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/cli/controller.js:77:32)
+    at FunctionsEmulator.start (/usr/local/lib/node_modules/firebase-tools/lib/functionsEmulator.js:113:21)
+    at Object.start (/usr/local/lib/node_modules/firebase-tools/lib/serve/functions.js:9:29)
+    at /usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:17:21
+    at arrayMap (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:639:23)
+    at Function.map (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:9556:14)
+    at _serve (/usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:15:7)
+    at Command._action (/usr/local/lib/node_modules/firebase-tools/commands/serve.js:47:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-09T17:28:59.860Z] ----------------------------------------------------------------------
+[debug] [2018-10-09T17:28:59.862Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-10-09T17:28:59.862Z] CLI Version:   5.0.1
+[debug] [2018-10-09T17:28:59.862Z] Platform:      darwin
+[debug] [2018-10-09T17:28:59.862Z] Node Version:  v10.1.0
+[debug] [2018-10-09T17:28:59.862Z] Time:          Tue Oct 09 2018 13:28:59 GMT-0400 (EDT)
+[debug] [2018-10-09T17:28:59.862Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-09T17:28:59.874Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-09T17:28:59.874Z] > authorizing via signed-in user
+[debug] [2018-10-09T17:28:59.874Z] [iam] checking project pss-speed for permissions ["firebase.projects.get"]
+[debug] [2018-10-09T17:28:59.876Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pss-speed:testIamPermissions  
+
+[debug] [2018-10-09T17:28:59.986Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-09T17:28:59.987Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pss-speed  
+ 
+[debug] [2018-10-09T17:29:00.111Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/mayur_vekariya/zz/vue-hero'...
+[info] 
+[debug] [2018-10-09T17:29:00.584Z] Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/logs'
+    at Object.fs.mkdirSync (fs.js:854:3)
+    at Object.assertLogsPath (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/emulator/logs.js:65:10)
+    at new Controller (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/cli/controller.js:77:32)
+    at FunctionsEmulator.start (/usr/local/lib/node_modules/firebase-tools/lib/functionsEmulator.js:113:21)
+    at Object.start (/usr/local/lib/node_modules/firebase-tools/lib/serve/functions.js:9:29)
+    at /usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:17:21
+    at arrayMap (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:639:23)
+    at Function.map (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:9556:14)
+    at _serve (/usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:15:7)
+    at Command._action (/usr/local/lib/node_modules/firebase-tools/commands/serve.js:47:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-09T17:29:27.699Z] ----------------------------------------------------------------------
+[debug] [2018-10-09T17:29:27.701Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-10-09T17:29:27.701Z] CLI Version:   5.0.1
+[debug] [2018-10-09T17:29:27.701Z] Platform:      darwin
+[debug] [2018-10-09T17:29:27.701Z] Node Version:  v10.1.0
+[debug] [2018-10-09T17:29:27.702Z] Time:          Tue Oct 09 2018 13:29:27 GMT-0400 (EDT)
+[debug] [2018-10-09T17:29:27.702Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-09T17:29:27.710Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-09T17:29:27.710Z] > authorizing via signed-in user
+[debug] [2018-10-09T17:29:27.710Z] [iam] checking project pss-speed for permissions ["firebase.projects.get"]
+[debug] [2018-10-09T17:29:27.712Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pss-speed:testIamPermissions  
+
+[debug] [2018-10-09T17:29:27.987Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-09T17:29:27.988Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pss-speed  
+ 
+[debug] [2018-10-09T17:29:28.246Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/mayur_vekariya/zz/vue-hero'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-10-09T17:29:28.640Z] Fetching environment
+[debug] [2018-10-09T17:29:28.642Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/196466926562:getServerAppConfig  
+ 
+[debug] [2018-10-09T17:29:28.642Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/196466926562/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-09T17:29:28.810Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-09T17:29:28.810Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-09T17:29:28.868Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./dist
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2018-10-09T17:29:29.852Z] Parsing function triggers
+[info] ✔  functions: helloWorld: http://localhost:5001/pss-speed/us-central1/helloWorld
